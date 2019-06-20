@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            line-height: 1.3em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 0.7em;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0px auto;
+        }
+
+        .box {
+            background: #ccacaa;
+            border-left: 1px solid purple;
+            margin: 20px 0px;
+            padding: 5px;            
+        }
+        .box p {
+            text-align: justify;
+        }
+        #box-2 {
+            float: left;
+            width: 49%;
+        }
+        #box-3 {
+            float: right;
+            width: 49%;
+        }
+        .clear {
+            clear:both;
+        }
+        .center {
+            text-align: center;
+            text-decoration: underline;
+        }
+ 
+    </style>
+</head>
+<body>
+
+    <header><h1 class="center">Float Practice</h1></header>
+
+    <div class="container">
+        <div class="box" id="box-1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime qui alias inventore dolorum blanditiis minima eveniet, quaerat repellendus autem impedit, quasi, recusandae vitae dolorem voluptatum rem ab officia est.
+            perspiciatis quasi ad similique? Dicta.</p>
+        </div>
+
+        <div class="box" id="box-2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime qui alias inventore dolorum blanditiis minima eveniet, quaerat repellendus autem impedit, quasi, recusandae vitae dolorem voluptatum rem ab officia est.
+            perspiciatis quasi ad similique? Dicta. </p>
+        </div>
+
+        <div class="box" id="box-3">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime qui alias inventore dolorum blanditiis minima eveniet, quaerat repellendus autem impedit, quasi, recusandae vitae dolorem voluptatum rem ab officia est.
+            perspiciatis quasi ad similique? Dicta.</p>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="box" id="box-4">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime qui alias inventore dolorum blanditiis minima eveniet, quaerat repellendus autem impedit, quasi, recusandae vitae dolorem voluptatum rem ab officia est.
+            perspiciatis quasi ad similique? Dicta. </p>
+        </div>
+
+      </div>
+    
+</body>
+</html>
