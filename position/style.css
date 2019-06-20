@@ -1,0 +1,59 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 4500px;;
+}
+
+.box {
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+}
+
+#box-1 {
+    background: red;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    z-index: 1;
+}
+
+#container {
+    background: black;
+    width: 400px;
+    height: 440px;
+    position: relative;
+}
+
+#box-2 {
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    margin: 0px;
+}
+
+#box-3 {
+    background: yellow;
+    position: absolute;
+    bottom: 20px;
+    left: 280px;
+}
+
+#box-4 {
+    background: palevioletred;
+    position: fixed;
+    right: 0px;
+    top: 10px;
+}
+
+#box-5 {
+    background: turquoise;
+    position: sticky;
+    top: 0px;
+    left: 40vw;
+}
+
