@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}   
+
+
+nav {
+    background: rgb(156, 150, 150);
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+nav ul {
+    /* If using display: inline, this padding should match the anchor tag padding so that the hover effect for bg-color will match the whole height and width of the box of the particular anchor tag item */
+    padding: 15px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    /* Add the padding directly on the anchor tag so that the backgorund color on hover will cover the whole height and width of the box for the item in focus */
+    padding: 15px;
+    text-decoration: none;
+    color: #fff
+}
+
+li a:hover {
+    background: grey;
+}
+
+img {
+    /* THe image tag is an inline element, to use the margin property on it, we have to change the display orientation */
+    display: block;
+    margin: auto;
+    max-height: 200px;
+    max-width: 200px;
+    height: auto;
+    width: auto;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    background: grey;
+}
+
+form {
+    border: 1px solid white;
+    display: inline-block;
+    margin: 5px auto;
+    padding: 30px;
+}
+
+input[type=submit] {
+    padding: 5px;
+    width: 100%;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.box {
+    display: inline-block;
+    width: 32.5%;
+    background: grey;
+    padding: 15px;
+    box-sizing: border-box
+}
