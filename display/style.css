@@ -1,15 +1,23 @@
 * {
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }   
+
+body {
+    height: 3000px;
+}
 
 
 nav {
     background: rgb(156, 150, 150);
     max-width: 100%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 nav ul {
