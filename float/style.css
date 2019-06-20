@@ -37,3 +37,30 @@ body {
     text-align: center;
     text-decoration: underline;
 }
+/* 2nd bg-color #446190 */
+.navbar {
+    background: #A38988;
+    margin: 0;
+    padding: 0;
+    border-radius: 3px;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;    
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1.3em;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.navbar li a:hover {
+    background-color: #8E7876;
+    color: #f4f4f4;
+}
