@@ -46,7 +46,7 @@
       </p>
 
       <div>
-        <a href="#page-1" class="bt btn-dark"
+        <a href="#page-1" class="btn btn-dark"
           >Prev Page <i class="fa fa-arrow-circle-up"></i>
         </a>
 
@@ -80,7 +80,7 @@
     </section>
 
     <!--Page 4-->
-    <section id="page-3" class="page">
+    <section id="page-4" class="page">
       <h1>Welcome To My Presentation</h1>
 
       <p>
@@ -92,10 +92,36 @@
       </p>
 
       <div>
-        <a href="#page-2" class="btn"
+        <a href="#page-3" class="btn"
           >Prev Page <i class="fa fa-arrow-circle-up"></i>
         </a>
       </div>
     </section>
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      
+    // Smooth Scrolling
+    $(".btn").on("click", function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top
+          },
+          800
+        );
+      }
+    });
+    </script>
   </body>
 </html>
